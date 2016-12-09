@@ -1,3 +1,77 @@
+
+
+h1 {
+    color: black;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+*
+{
+	box-sizing: border-box;
+
+	
+}
+body
+{
+background-color: white;
+}
+#h1
+	{
+
+		background-color: rgb(227,240,183);	
+        border : 1px solid black;
+        width: 80px;
+	    height:20px;
+	    margin: 0 0 10px 10px;
+        float:right;
+        text-align: center;
+        font-size: 100%;
+        overflow: auto;
+	    
+}
+#h2
+	{
+		background-color: rgb(237,28,36);	
+        border : 1px solid black;
+        width: 80px;
+	    height:20px;
+	    margin: 0 0 10px 10px;
+        float:right;
+        text-align: center;
+        font-size: 100%;
+        overflow: auto;
+	    
+}
+#h3
+	{
+		background-color: rgb(255,255,128);	
+        border : 1px solid black;
+        width: 80px;
+	    height:20px;
+	    margin: 0 0 10px 10px;
+        float:right;
+        text-align: center;
+        font-size: 100%;
+        font-family: courier;
+        overflow: auto;
+	    
+}
+
+section
+{
+	padding-left: 20px;	
+	background-color: rgb(128,128,128);	
+    overflow: auto; 
+	 clear:left;   
+     margin: 10px 10px 10px 10px ;
+     border: 3px solid black;
+     font-size: 75%;
+    font-family: courier;
+}
+
+
+
 .row
 {
 	width: 100%;
@@ -193,68 +267,4 @@
 
 }
 
-h1 {
-    color: black;
-    text-align: center;
-    margin-bottom: 15px;
 
-}
-*
-{
-	box-sizing: border-box;
-
-	
-}
-#h1
-	{
-
-		background-color: rgb(227,240,183);	
-        border : 1px solid black;
-        width: 80px;
-	    height:20px;
-	    margin: 0 0 10px 10px;
-        float:right;
-        text-align: center;
-        font-size: 100%;
-        overflow: auto;
-	    
-}
-#h2
-	{
-		background-color: rgb(237,28,36);	
-        border : 1px solid black;
-        width: 80px;
-	    height:20px;
-	    margin: 0 0 10px 10px;
-        float:right;
-        text-align: center;
-        font-size: 100%;
-        overflow: auto;
-	    
-}
-#h3
-	{
-		background-color: rgb(255,255,128);	
-        border : 1px solid black;
-        width: 80px;
-	    height:20px;
-	    margin: 0 0 10px 10px;
-        float:right;
-        text-align: center;
-        font-size: 100%;
-        font-family: courier;
-        overflow: auto;
-	    
-}
-
-section
-{
-	padding-left: 20px;	
-	background-color: rgb(128,128,128);	
-    overflow: auto; 
-	 clear:left;   
-     margin: 10px 10px 10px 10px ;
-     border: 3px solid black;
-     font-size: 75%;
-    font-family: courier;
-}
