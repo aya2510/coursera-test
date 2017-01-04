@@ -1,1 +1,93 @@
 
+body
+{
+	color: black;
+	background-color: rgb(255,174,201);
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+}
+*
+{
+	box-sizing: border-box;
+}
+/*header*/
+#header-nav
+{
+border: 2px solid black;
+border-radius: 0;
+background-color: grey;
+position: relative;
+width: 100%;
+left: 0px;
+top: 0px;
+}
+/* Food,llc brand */
+.navbar-brand p
+{
+
+font-family: 'Lora', serif;
+color: black;
+font-weight: bold;
+padding-top: 0px;
+font-size: 1.5em;
+float: left;
+margin-left: 20px;
+}
+#btstyle
+{
+	border: 1px solid black;
+
+}
+#nav-list {
+  
+  background-color: white;
+ /*margin-right: -5px;
+  margin-left:-5px;
+  margin-top :-5px;
+  margin-bottom:-5px;*/
+}
+/*#nav-list a {
+
+  text-align: center;
+
+}*/
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+
+  font-size: 1em;
+  color: black;
+}
+.navbar-nav >li >a
+{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+ hr
+{
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;  
+    padding: 0; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*end of header*/
+#title1
+{
+	
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: 0;
+}
+#paragraph
+{
+background-color: grey;
+margin-top: 10px;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: : 10px;
+}
