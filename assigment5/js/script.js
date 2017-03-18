@@ -98,9 +98,10 @@ function buildAndShowHomeHTML (categories) {
     homeHtmlUrl,
     function (homeHtml) {
       // Retrieve homehtml  snippet
-       var chosenCategoryShortName=chooseRandomCategory(categories); 
-          var homeHtml = insertProperty(homeHtml,$dc.loadMenuItems(chosenCategoryShortName.short_name),chosenCategoryShortName.short_name);   
-           insertHtml("#main-content",homeHtml);  
+       var chosenCategoryShortName=chooseRandomCategory(categories).shortname; 
+      var name= "'" + chosenCategoryShortName + "'";
+          var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml,"randomCategoryShortName",name);   
+           insertHtml("#main-content",homeHtmlToInsertIntoMainPage);  
           },false);
 }
 /*
