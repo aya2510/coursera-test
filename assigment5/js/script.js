@@ -98,7 +98,7 @@ function buildAndShowHomeHTML (categories) {
     homeHtmlUrl,
     function (homeHtml) {
       // Retrieve homehtml  snippet
-       var chosenCategoryShortName=object.assign({},chooseRandomCategory(categories)); 
+       var chosenCategoryShortName=chooseRandomCategory(categories); 
           var homeHtml = insertProperty(homeHtml,$dc.loadMenuItems(chosenCategoryShortName.short_name),chosenCategoryShortName.short_name);   
            insertHtml("#main-content",homeHtml);  
           },false);
